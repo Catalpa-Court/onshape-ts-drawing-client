@@ -1,7 +1,7 @@
 import { mainLog } from './utils/logger.js';
 import { ApiClient } from './utils/apiclient.js';
 import { BasicNode, DrawingObjectType, ModifyStatusResponseOutput, SingleRequestResultStatus, GetDrawingJsonExportResponse, GetViewJsonGeometryResponse, SnapPointType, View2 } from './utils/onshapetypes.js';
-import { usage, waitForModifyToFinish, DrawingScriptArgs, parseDrawingScriptArgs, validateBaseURLs, getRandomViewOnActiveSheetFromExportData, getDrawingJsonExport, convertPointViewToPaper, pointOnCircle } from './utils/drawingutils.js';
+import { usage, waitForModifyToFinish, DrawingScriptArgs, parseDrawingScriptArgs, validateBaseURLs, getRandomViewOnActiveSheetFromExportData, getDrawingJsonExport, convertPointViewToPaper, pointOnCircle, getAllViewsOnActiveSheetFromExportData } from './utils/drawingutils.js';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -218,26 +218,47 @@ if (validArgs) {
     const data: DrafterData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 
     let drawingJsonExport: GetDrawingJsonExportResponse = await getDrawingJsonExport(apiClient, drawingScriptArgs.documentId, 'w', drawingScriptArgs.workspaceId, drawingScriptArgs.elementId) as GetDrawingJsonExportResponse;
-    const viewToUse = getRandomViewOnActiveSheetFromExportData(drawingJsonExport);
-    const retrieveViewJsonGeometryResponse = await apiClient.get(`api/appelements/d/${drawingScriptArgs.documentId}/w/${drawingScriptArgs.workspaceId}/e/${drawingScriptArgs.elementId}/views/${viewToUse.viewId}/jsongeometry`) as GetViewJsonGeometryResponse;
+    const views = getAllViewsOnActiveSheetFromExportData(drawingJsonExport);
     const textHeight = 0.12;
-    const annotations = data.elements.map((element: DrafterElement) => {
+    
+    // Process all elements
+    const annotations = await Promise.all(data.elements.map(async (element: DrafterElement) => {
       if (isDrafterNote(element)) {
-        return convertDrafterNoteToOnshape(element, textHeight);
+        return [convertDrafterNoteToOnshape(element, textHeight)];
       }
       if (isDrafterDiameterDimension(element)) {
-        return convertDrafterDimensionDiameterToOnshape(processDrafterDimensionDiameter(element, retrieveViewJsonGeometryResponse, viewToUse));
+        return [];
+        // Find all matching edges across all views
+        const processedDimensions: ProcessedDiameterDimension[] = [];
+        
+        for (const view of views) {
+          const viewGeometry = await apiClient.get(`api/appelements/d/${drawingScriptArgs.documentId}/w/${drawingScriptArgs.workspaceId}/e/${drawingScriptArgs.elementId}/views/${view.viewId}/jsongeometry`) as GetViewJsonGeometryResponse;
+          
+          try {
+            const processedDimension = processDrafterDimensionDiameter(element, viewGeometry, view);
+            processedDimensions.push(processedDimension);
+          } catch (error) {
+            // Skip if no matching edge found in this view
+            continue;
+          }
+        }
+        
+        // Convert all processed dimensions to Onshape format and flatten
+        return processedDimensions.flatMap(dim => convertDrafterDimensionDiameterToOnshape(dim));
       }
       LOG.warn(`Unsupported element type: ${element.type}`);
-    });
+      return [];
+    }));
+
+    const flattenedAnnotations = annotations.flat();
 
     const requestBody = {
-      description: 'Add notes from drafterData.json',
+      description: 'Add annotations from drafterData.json',
       jsonRequests: [
         {
           messageName: 'onshapeCreateAnnotations',
           formatVersion: '2021-01-01',
-          annotations: annotations
+          annotations: flattenedAnnotations
         }
       ]
     };

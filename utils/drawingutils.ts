@@ -297,6 +297,24 @@ export async function waitForModifyToFinish(apiClient: ApiClient, idModifyReques
   return jobOutput;  // Will return null if failed
 }
 
+export function getAllViewsOnActiveSheetFromExportData(exportData: GetDrawingJsonExportResponse): View2[] {
+  let views: View2[] = [];
+
+  for (let indexSheet = 0; indexSheet < exportData.sheets.length; indexSheet++) {
+    let sheet: Sheet = exportData.sheets[indexSheet];
+    if (sheet.active === true) {
+      if (sheet.views !== null && sheet.views.length > 0) {
+        views = sheet.views;
+      } else {
+        console.log('Active sheet has no views.');
+      }
+      break;
+    }
+  }
+
+  return views;
+}
+
 export function getRandomViewOnActiveSheetFromExportData(exportData: GetDrawingJsonExportResponse): View2 {
   let viewToReturn: View2 = null;
 
