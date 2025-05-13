@@ -1,0 +1,2056 @@
+{
+    "drawing": {
+      "gridPositioning": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ],
+      "drawingViews": [
+        {
+          "type": "DEFAULT",
+          "dxfS3Key": "5fec520a-7537-40a8-9b32-e2281be50fcb.dxf",
+          "pngS3Key": null,
+          "svgS3Key": null,
+          "gridPosition": 4,
+          "name": null,
+          "elements": [
+            {
+              "type": "center_mark",
+              "attributes": {
+                "userSelectedPosition": null,
+                "edge": "TOP",
+                "layerId": 1,
+                "offsetFromEdge": 0,
+                "diameter": 278.36399147727263,
+                "position": {
+                  "x": 1.5823160963309004e-13,
+                  "y": 0
+                }
+              },
+              "id": "01JV5380VWM2A4BFPX3VV9JF58",
+              "drawingViewId": "01JV5380VT6EM79ZB6XMN3W2GK",
+              "featureId": "01JV535HQ7E3036ZFBZWBV5A6P",
+              "criticalFeatureId": null
+            },
+            {
+              "type": "critical_feature_callout",
+              "attributes": {
+                "userSelectedPosition": null,
+                "edge": "TOP",
+                "layerId": 1,
+                "offsetFromEdge": 0,
+                "count": 1,
+                "position": {
+                  "x": 98.4155891867899,
+                  "y": 98.41558918678973
+                },
+                "calloutAttributes": {
+                  "alignmentType": "RIGHT",
+                  "arrowAngle": -1.7463703587698676,
+                  "backgroundPosition": {
+                    "x": 0,
+                    "y": 313.36399147727263
+                  },
+                  "backgroundSize": {
+                    "x": 44.800000000000004,
+                    "y": 8
+                  },
+                  "canvasPosition": {
+                    "x": 0,
+                    "y": 313.36399147727263
+                  },
+                  "connectingLineStartPosition": {
+                    "x": 30.900000000000002,
+                    "y": 313.36399147727263
+                  },
+                  "connectingLineEndPosition": {
+                    "x": 8.795234393364363e-14,
+                    "y": 139.18199573863632
+                  },
+                  "draggable": true,
+                  "lineEndType": "ARROW",
+                  "pointAtPosition": {
+                    "x": 8.795234393364363e-14,
+                    "y": 139.18199573863632
+                  },
+                  "shoulderJointType": "NONE",
+                  "shoulderJointPosition": null,
+                  "shoulderStartPosition": {
+                    "x": 22.900000000000002,
+                    "y": 313.36399147727263
+                  },
+                  "shoulderEndPosition": {
+                    "x": 30.900000000000002,
+                    "y": 313.36399147727263
+                  },
+                  "shoulderType": "DEFAULT"
+                },
+                "featureControlFrameAttributes": {
+                  "baseControlFrameContent": [
+                    "{{POSITION_SVG}}",
+                    "{{DIAMETER_SVG}}0.15",
+                    "A",
+                    "B"
+                  ],
+                  "baseFrameElementPositions": [
+                    {
+                      "x": -18.6,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": -11.000000000000004,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": -2.0000000000000053,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": 10.999999999999993,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": 18.599999999999994,
+                      "y": 0,
+                      "z": 0
+                    }
+                  ],
+                  "baseFrameHeight": 8,
+                  "baseFrameWidth": 44.800000000000004,
+                  "bottomControlFrameContent": [],
+                  "bottomFrameElementPositions": [],
+                  "bottomFrameHeight": 0,
+                  "datumPriorityAttributes": null,
+                  "dividerLinePositions": [
+                    {
+                      "x": -14.800000000000002,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": 7.1999999999999975,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": 14.799999999999997,
+                      "y": 0,
+                      "z": 0
+                    }
+                  ],
+                  "groupCountLabelPosition": null,
+                  "groupCountText": null,
+                  "groupCountWidth": null,
+                  "topControlFrameContent": [
+                    "{{DIAMETER_SVG}}50 {{PLUS_OR_MINUS_SVG}}0.15 THRU"
+                  ],
+                  "topFrameElementPositions": [
+                    {
+                      "x": -28.199999999999996,
+                      "y": 10.5,
+                      "z": 0
+                    },
+                    {
+                      "x": -22.8,
+                      "y": 10.5,
+                      "z": 0
+                    },
+                    {
+                      "x": -13.8,
+                      "y": 10.5,
+                      "z": 0
+                    },
+                    {
+                      "x": 4.199999999999999,
+                      "y": 10.5,
+                      "z": 0
+                    }
+                  ],
+                  "topFrameHeight": 6,
+                  "totalHeight": 12
+                }
+              },
+              "id": "01JV5380VWTNHXTCTGSP65RTAA",
+              "drawingViewId": "01JV5380VT6EM79ZB6XMN3W2GK",
+              "featureId": null,
+              "criticalFeatureId": "01JV5373DB461ZNTTSJTYWS9RR"
+            },
+            {
+              "type": "critical_feature_callout",
+              "attributes": {
+                "userSelectedPosition": null,
+                "edge": "TOP",
+                "layerId": 4,
+                "offsetFromEdge": 0,
+                "count": 1,
+                "position": {
+                  "x": 278.3639914772728,
+                  "y": 0
+                },
+                "calloutAttributes": {
+                  "alignmentType": "LEFT",
+                  "arrowAngle": 3.141592653589793,
+                  "backgroundPosition": {
+                    "x": 371.3639914772728,
+                    "y": 0
+                  },
+                  "backgroundSize": {
+                    "x": 37.6,
+                    "y": 8
+                  },
+                  "canvasPosition": {
+                    "x": 371.3639914772728,
+                    "y": 0
+                  },
+                  "connectingLineStartPosition": {
+                    "x": 344.0639914772728,
+                    "y": 0
+                  },
+                  "connectingLineEndPosition": {
+                    "x": 278.3639914772728,
+                    "y": 0
+                  },
+                  "draggable": true,
+                  "lineEndType": "ARROW",
+                  "pointAtPosition": {
+                    "x": 278.3639914772728,
+                    "y": 0
+                  },
+                  "shoulderJointType": "NONE",
+                  "shoulderJointPosition": null,
+                  "shoulderStartPosition": {
+                    "x": 352.0639914772728,
+                    "y": 0
+                  },
+                  "shoulderEndPosition": {
+                    "x": 344.0639914772728,
+                    "y": 0
+                  },
+                  "shoulderType": "DEFAULT"
+                },
+                "featureControlFrameAttributes": {
+                  "baseControlFrameContent": [
+                    "{{PROFILE_SURFACE_SVG}}",
+                    "0.3",
+                    "A",
+                    "B"
+                  ],
+                  "baseFrameElementPositions": [
+                    {
+                      "x": -15,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": -3.8000000000000016,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": 7.399999999999998,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": 14.999999999999996,
+                      "y": 0,
+                      "z": 0
+                    }
+                  ],
+                  "baseFrameHeight": 8,
+                  "baseFrameWidth": 37.6,
+                  "bottomControlFrameContent": [],
+                  "bottomFrameElementPositions": [],
+                  "bottomFrameHeight": 0,
+                  "datumPriorityAttributes": null,
+                  "dividerLinePositions": [
+                    {
+                      "x": -11.200000000000001,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": 3.599999999999998,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": 11.199999999999998,
+                      "y": 0,
+                      "z": 0
+                    }
+                  ],
+                  "groupCountLabelPosition": null,
+                  "groupCountText": null,
+                  "groupCountWidth": null,
+                  "topControlFrameContent": [],
+                  "topFrameElementPositions": [],
+                  "topFrameHeight": 0,
+                  "totalHeight": 6
+                }
+              },
+              "id": "01JV5380VW1FXH7N292Q3BXWVR",
+              "drawingViewId": "01JV5380VT6EM79ZB6XMN3W2GK",
+              "featureId": null,
+              "criticalFeatureId": "01JV53792J17DEKH4R7VQ738H7"
+            },
+            {
+              "type": "basic_dimension_measurement",
+              "attributes": {
+                "userSelectedPosition": null,
+                "edge": "TOP",
+                "layerId": -1,
+                "offsetFromEdge": 0,
+                "count": 1,
+                "endPosition": {
+                  "x": 50,
+                  "y": -49.99999999999997
+                },
+                "startPosition": {
+                  "x": -49.99999999999994,
+                  "y": -49.99999999999997
+                },
+                "value": 100.00000000000006,
+                "valueType": "DEFAULT",
+                "vector": {
+                  "x": 0,
+                  "y": -1
+                },
+                "backgroundSize": {
+                  "x": 14.799999999999999,
+                  "y": 9.2
+                },
+                "connectingLineStartPosition": null,
+                "connectingLineEndPosition": null,
+                "dragDirection": "VERTICAL",
+                "elementSize": {
+                  "x": 35,
+                  "y": 15
+                },
+                "endArrowAngle": 0,
+                "endArrowPosition": {
+                  "x": 278.3639914772728,
+                  "y": -325.86399147727263,
+                  "z": -7
+                },
+                "endPerpendicularEndPosition": {
+                  "x": 278.3639914772728,
+                  "y": -325.86399147727263,
+                  "z": -8
+                },
+                "endPerpendicularStartPosition": {
+                  "x": 278.3639914772728,
+                  "y": -280.36399147727263,
+                  "z": -8
+                },
+                "formattedValue": "100",
+                "labelPosition": {
+                  "x": 1.1368683772161603e-13,
+                  "y": -325.86399147727263,
+                  "z": 0
+                },
+                "parallelLineEndPosition": {
+                  "x": 278.3639914772728,
+                  "y": -325.86399147727263,
+                  "z": -8
+                },
+                "parallelLineStartPosition": {
+                  "x": -278.3639914772725,
+                  "y": -325.86399147727263,
+                  "z": -8
+                },
+                "startArrowAngle": 3.141592653589793,
+                "startArrowPosition": {
+                  "x": -278.3639914772725,
+                  "y": -325.86399147727263,
+                  "z": -7
+                },
+                "startPerpendicularEndPosition": {
+                  "x": -278.3639914772725,
+                  "y": -325.86399147727263,
+                  "z": -8
+                },
+                "startPerpendicularStartPosition": {
+                  "x": -278.3639914772725,
+                  "y": -280.36399147727263,
+                  "z": -8
+                }
+              },
+              "id": "01JV5380VW90ZNNGHE6TRTWGZH",
+              "drawingViewId": "01JV5380VT6EM79ZB6XMN3W2GK",
+              "featureId": null,
+              "criticalFeatureId": null
+            },
+            {
+              "type": "datum_reference",
+              "attributes": {
+                "userSelectedPosition": null,
+                "edge": "TOP",
+                "layerId": 3,
+                "offsetFromEdge": 0,
+                "count": 1,
+                "position": {
+                  "x": 50,
+                  "y": -49.99999999999997
+                },
+                "vector": {
+                  "x": 1,
+                  "y": 0
+                },
+                "calloutAttributes": {
+                  "alignmentType": "RIGHT",
+                  "arrowAngle": 3.141592653589793,
+                  "backgroundPosition": {
+                    "x": 319.3639914772728,
+                    "y": -274.36399147727263
+                  },
+                  "backgroundSize": {
+                    "x": 30,
+                    "y": 8
+                  },
+                  "canvasPosition": {
+                    "x": 319.3639914772728,
+                    "y": -274.36399147727263
+                  },
+                  "connectingLineStartPosition": {
+                    "x": 304.3639914772728,
+                    "y": -278.36399147727263
+                  },
+                  "connectingLineEndPosition": {
+                    "x": 280.3639914772728,
+                    "y": -278.36399147727263
+                  },
+                  "draggable": true,
+                  "lineEndType": "NONE",
+                  "pointAtPosition": {
+                    "x": 280.3639914772728,
+                    "y": -278.36399147727263
+                  },
+                  "shoulderJointType": "NONE",
+                  "shoulderJointPosition": null,
+                  "shoulderStartPosition": {
+                    "x": 304.3639914772728,
+                    "y": -278.36399147727263
+                  },
+                  "shoulderEndPosition": {
+                    "x": 304.3639914772728,
+                    "y": -278.36399147727263
+                  },
+                  "shoulderType": "FIXED"
+                },
+                "featureControlFrameAttributes": {
+                  "baseControlFrameContent": [
+                    "{{PERPENDICULARITY_SVG}}",
+                    "0.3",
+                    "A"
+                  ],
+                  "baseFrameElementPositions": [
+                    {
+                      "x": -11.2,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": -8.881784197001252e-16,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": 11.2,
+                      "y": 0,
+                      "z": 0
+                    }
+                  ],
+                  "baseFrameHeight": 8,
+                  "baseFrameWidth": 30,
+                  "bottomControlFrameContent": [],
+                  "bottomFrameElementPositions": [],
+                  "bottomFrameHeight": 0,
+                  "datumPriorityAttributes": {
+                    "triangleSize": {
+                      "x": 4,
+                      "y": 4
+                    },
+                    "trianglePosition": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "connectingLineStartPosition": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "connectingLineEndPosition": {
+                      "x": 0,
+                      "y": 20
+                    },
+                    "datumFramePosition": {
+                      "x": 0,
+                      "y": 18
+                    },
+                    "datumFrameSize": {
+                      "x": 7.6,
+                      "y": 8
+                    },
+                    "datumPriority": "B",
+                    "totalHeight": 24,
+                    "placement": "TOP"
+                  },
+                  "dividerLinePositions": [
+                    {
+                      "x": -7.4,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": 7.399999999999999,
+                      "y": 0,
+                      "z": 0
+                    }
+                  ],
+                  "groupCountLabelPosition": null,
+                  "groupCountText": null,
+                  "groupCountWidth": null,
+                  "topControlFrameContent": [],
+                  "topFrameElementPositions": [],
+                  "topFrameHeight": 24,
+                  "totalHeight": 30
+                },
+                "datumPriorityAttributes": null
+              },
+              "id": "01JV5380VWPR2PTPPR3HTQPE28",
+              "drawingViewId": "01JV5380VT6EM79ZB6XMN3W2GK",
+              "featureId": null,
+              "criticalFeatureId": "01JV536PXNY9DA6PHR5E8ZAQH3"
+            },
+            {
+              "type": "external_width_measurement",
+              "attributes": {
+                "userSelectedPosition": null,
+                "edge": "TOP",
+                "layerId": -1,
+                "offsetFromEdge": 0,
+                "count": 1,
+                "endPosition": {
+                  "x": 50,
+                  "y": -49.99999999999997
+                },
+                "startPosition": {
+                  "x": -49.99999999999994,
+                  "y": -49.99999999999997
+                },
+                "value": 0,
+                "valueType": "DEFAULT",
+                "vector": {
+                  "x": 0,
+                  "y": -1
+                },
+                "backgroundSize": null,
+                "connectingLineStartPosition": null,
+                "connectingLineEndPosition": null,
+                "dragDirection": "VERTICAL",
+                "elementSize": {
+                  "x": 35,
+                  "y": 15
+                },
+                "endArrowAngle": 0,
+                "endArrowPosition": {
+                  "x": 278.3639914772728,
+                  "y": -295.86399147727263,
+                  "z": -7
+                },
+                "endPerpendicularEndPosition": {
+                  "x": 278.3639914772728,
+                  "y": -295.86399147727263,
+                  "z": -8
+                },
+                "endPerpendicularStartPosition": {
+                  "x": 278.3639914772728,
+                  "y": -280.36399147727263,
+                  "z": -8
+                },
+                "formattedValue": null,
+                "labelPosition": {
+                  "x": 1.1368683772161603e-13,
+                  "y": -295.86399147727263,
+                  "z": 0
+                },
+                "parallelLineEndPosition": {
+                  "x": 278.3639914772728,
+                  "y": -295.86399147727263,
+                  "z": -8
+                },
+                "parallelLineStartPosition": {
+                  "x": -278.3639914772725,
+                  "y": -295.86399147727263,
+                  "z": -8
+                },
+                "startArrowAngle": 3.141592653589793,
+                "startArrowPosition": {
+                  "x": -278.3639914772725,
+                  "y": -295.86399147727263,
+                  "z": -7
+                },
+                "startPerpendicularEndPosition": {
+                  "x": -278.3639914772725,
+                  "y": -295.86399147727263,
+                  "z": -8
+                },
+                "startPerpendicularStartPosition": {
+                  "x": -278.3639914772725,
+                  "y": -280.36399147727263,
+                  "z": -8
+                },
+                "alignmentType": "LEFT",
+                "backgroundOffset": {
+                  "x": 16,
+                  "y": 0
+                },
+                "backgroundPosition": {
+                  "x": 1.1368683772161603e-13,
+                  "y": -295.86399147727263,
+                  "z": 0
+                },
+                "calloutAttributes": null,
+                "featureControlFrameAttributes": {
+                  "baseControlFrameContent": [
+                    "{{POSITION_SVG}}",
+                    "0.25",
+                    "A",
+                    "B"
+                  ],
+                  "baseFrameElementPositions": [
+                    {
+                      "x": -16.8,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": -3.8000000000000025,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": 9.199999999999996,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": 16.799999999999997,
+                      "y": 0,
+                      "z": 0
+                    }
+                  ],
+                  "baseFrameHeight": 8,
+                  "baseFrameWidth": 41.2,
+                  "bottomControlFrameContent": [],
+                  "bottomFrameElementPositions": [],
+                  "bottomFrameHeight": 0,
+                  "datumPriorityAttributes": null,
+                  "dividerLinePositions": [
+                    {
+                      "x": -13.000000000000002,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": 5.399999999999997,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": 12.999999999999996,
+                      "y": 0,
+                      "z": 0
+                    }
+                  ],
+                  "groupCountLabelPosition": null,
+                  "groupCountText": null,
+                  "groupCountWidth": null,
+                  "topControlFrameContent": [
+                    "100{{PLUS_OR_MINUS_SVG}}0.3"
+                  ],
+                  "topFrameElementPositions": [
+                    {
+                      "x": -13.200000000000003,
+                      "y": 10.5,
+                      "z": 0
+                    },
+                    {
+                      "x": -6.000000000000003,
+                      "y": 10.5,
+                      "z": 0
+                    },
+                    {
+                      "x": 1.1999999999999966,
+                      "y": 10.5,
+                      "z": 0
+                    }
+                  ],
+                  "topFrameHeight": 6,
+                  "totalHeight": 12
+                }
+              },
+              "id": "01JV5380VWXRKNDV28H4AP76JG",
+              "drawingViewId": "01JV5380VT6EM79ZB6XMN3W2GK",
+              "featureId": null,
+              "criticalFeatureId": "01JV537HZ6YFKJYS32493KAV5Z"
+            }
+          ],
+          "width": 100,
+          "height": 99.99999999999994,
+          "id": "01JV5380VT6EM79ZB6XMN3W2GK",
+          "attributes": {
+            "position": {
+              "x": -380.7933238636363,
+              "y": -11.5
+            },
+            "boundingBox": {
+              "min": {
+                "x": -278.3639914772728,
+                "y": -278.36399147727263
+              },
+              "max": {
+                "x": 278.3639914772728,
+                "y": 278.36399147727263
+              }
+            },
+            "scaleFactor": 5.567279829545456,
+            "labelPosition": {
+              "x": 0,
+              "y": -288.36399147727263
+            }
+          },
+          "fileUrl": "https://staging-api.drafterhelp.com/drawings/drawing_views/01JV5380VT6EM79ZB6XMN3W2GK/file"
+        },
+        {
+          "type": "DEFAULT",
+          "dxfS3Key": "73fa1ee1-5821-4381-8642-09005bcc23fb.dxf",
+          "pngS3Key": null,
+          "svgS3Key": null,
+          "gridPosition": 5,
+          "name": null,
+          "elements": [
+            {
+              "type": "datum_reference",
+              "attributes": {
+                "userSelectedPosition": null,
+                "edge": "TOP",
+                "layerId": 7,
+                "offsetFromEdge": 0,
+                "count": 1,
+                "position": {
+                  "x": -49.99999999999997,
+                  "y": 49.99999999999997
+                },
+                "vector": {
+                  "x": 0,
+                  "y": 1
+                },
+                "calloutAttributes": {
+                  "alignmentType": "LEFT",
+                  "arrowAngle": -1.5707963267948966,
+                  "backgroundPosition": {
+                    "x": -289.5639914772726,
+                    "y": 308.36399147727263
+                  },
+                  "backgroundSize": {
+                    "x": 22.4,
+                    "y": 8
+                  },
+                  "canvasPosition": {
+                    "x": -289.5639914772726,
+                    "y": 308.36399147727263
+                  },
+                  "connectingLineStartPosition": {
+                    "x": -278.36399147727263,
+                    "y": 304.36399147727263
+                  },
+                  "connectingLineEndPosition": {
+                    "x": -278.36399147727263,
+                    "y": 280.36399147727263
+                  },
+                  "draggable": true,
+                  "lineEndType": "NONE",
+                  "pointAtPosition": {
+                    "x": -278.36399147727263,
+                    "y": 280.36399147727263
+                  },
+                  "shoulderJointType": "NONE",
+                  "shoulderJointPosition": null,
+                  "shoulderStartPosition": {
+                    "x": -278.36399147727263,
+                    "y": 304.36399147727263
+                  },
+                  "shoulderEndPosition": {
+                    "x": -278.36399147727263,
+                    "y": 304.36399147727263
+                  },
+                  "shoulderType": "FIXED"
+                },
+                "featureControlFrameAttributes": {
+                  "baseControlFrameContent": [
+                    "{{FLATNESS_SVG}}",
+                    "0.3"
+                  ],
+                  "baseFrameElementPositions": [
+                    {
+                      "x": -7.3999999999999995,
+                      "y": 0,
+                      "z": 0
+                    },
+                    {
+                      "x": 3.8,
+                      "y": 0,
+                      "z": 0
+                    }
+                  ],
+                  "baseFrameHeight": 8,
+                  "baseFrameWidth": 22.4,
+                  "bottomControlFrameContent": [],
+                  "bottomFrameElementPositions": [],
+                  "bottomFrameHeight": 0,
+                  "datumPriorityAttributes": {
+                    "triangleSize": {
+                      "x": 4,
+                      "y": 4
+                    },
+                    "trianglePosition": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "connectingLineStartPosition": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "connectingLineEndPosition": {
+                      "x": 0,
+                      "y": 20
+                    },
+                    "datumFramePosition": {
+                      "x": 0,
+                      "y": 18
+                    },
+                    "datumFrameSize": {
+                      "x": 7.6,
+                      "y": 8
+                    },
+                    "datumPriority": "A",
+                    "totalHeight": 24,
+                    "placement": "TOP"
+                  },
+                  "dividerLinePositions": [
+                    {
+                      "x": -3.5999999999999996,
+                      "y": 0,
+                      "z": 0
+                    }
+                  ],
+                  "groupCountLabelPosition": null,
+                  "groupCountText": null,
+                  "groupCountWidth": null,
+                  "topControlFrameContent": [],
+                  "topFrameElementPositions": [],
+                  "topFrameHeight": 24,
+                  "totalHeight": 30
+                },
+                "datumPriorityAttributes": null
+              },
+              "id": "01JV5380VWXYSKZ7M95E010FFA",
+              "drawingViewId": "01JV5380VTAR0Z8KCHTFQECHVV",
+              "featureId": null,
+              "criticalFeatureId": "01JV536GJP5YFRNSYJ3R7J6WRZ"
+            }
+          ],
+          "width": 99.99999999999994,
+          "height": 99.99999999999994,
+          "id": "01JV5380VTAR0Z8KCHTFQECHVV",
+          "attributes": {
+            "position": {
+              "x": 390.7933238636364,
+              "y": -11.5
+            },
+            "boundingBox": {
+              "min": {
+                "x": -278.36399147727263,
+                "y": -278.36399147727263
+              },
+              "max": {
+                "x": 278.36399147727263,
+                "y": 278.36399147727263
+              }
+            },
+            "scaleFactor": 5.567279829545456,
+            "labelPosition": {
+              "x": 0,
+              "y": -288.36399147727263
+            }
+          },
+          "fileUrl": "https://staging-api.drafterhelp.com/drawings/drawing_views/01JV5380VTAR0Z8KCHTFQECHVV/file"
+        },
+        {
+          "type": "ISOMETRIC",
+          "dxfS3Key": "7474ad30-dc2e-412e-a0e7-2af303bcc341.dxf",
+          "pngS3Key": "f9395299-d2b2-4ffb-ac63-4b8b0b229cca.png",
+          "svgS3Key": null,
+          "gridPosition": null,
+          "name": "isometric_view",
+          "elements": [],
+          "width": 89.2820323027551,
+          "height": 100.00000000000001,
+          "id": "01JV5380VT0F29AX4Q4VGVQ038",
+          "attributes": {
+            "position": {
+              "x": 646,
+              "y": 466
+            },
+            "boundingBox": {
+              "min": {
+                "x": 546,
+                "y": 366
+              },
+              "max": {
+                "x": 746,
+                "y": 566
+              }
+            },
+            "scaleFactor": 1.9999999999999998,
+            "labelPosition": null
+          },
+          "fileUrl": "https://staging-api.drafterhelp.com/drawings/drawing_views/01JV5380VT0F29AX4Q4VGVQ038/file"
+        }
+      ],
+      "projectFileId": "01JV535HBB8JF4TRGZTVEHPJYW",
+      "id": "01JV5380VREH8N380ACMX8RJN0",
+      "attributes": {
+        "notesPosition": {
+          "x": -745.2,
+          "y": 568.8
+        },
+        "notesBoundingBox": {
+          "min": {
+            "x": -745.2,
+            "y": 518.8
+          },
+          "max": {
+            "x": -465.20000000000005,
+            "y": 568.8
+          }
+        },
+        "isometricViewPosition": {
+          "x": 646,
+          "y": 466
+        },
+        "isometricViewBoundingBox": {
+          "min": {
+            "x": 546,
+            "y": 366
+          },
+          "max": {
+            "x": 746,
+            "y": 566
+          }
+        },
+        "titleBlockPosition": {
+          "x": 566,
+          "y": -506
+        },
+        "titleBlockBoundingBox": {
+          "min": {
+            "x": 376,
+            "y": -576
+          },
+          "max": {
+            "x": 756,
+            "y": -436
+          }
+        }
+      }
+    },
+    "user": {
+      "email": "ethan.keller@gmail.com",
+      "firstName": "Ethan",
+      "lastName": "Keller",
+      "agreedToEula": true,
+      "cognitoUserId": "b10bf510-50f1-70ac-4765-92d544c32d56",
+      "created": "2025-04-23T19:39:39.199494Z",
+      "id": "01JSJ2KF9ZX66XF36WDF44T5HE",
+      "isActive": true,
+      "organization": {
+        "name": "Ethan Development",
+        "address": null,
+        "created": "2025-04-24T06:31:13.873484Z",
+        "id": "01JSK7WHPH7PRFE5S6TKX6C45Q",
+        "logoUrl": null,
+        "organizationType": "customer",
+        "updated": "2025-04-24T20:18:16.947407Z"
+      },
+      "roles": [],
+      "updated": "2025-04-23T19:39:42.805728Z"
+    },
+    "project": {
+      "degreesOfFreedomDescription": null,
+      "degreesOfFreedomRealized": 5,
+      "degreesOfFreedomRequired": null,
+      "editingMode": "readonly",
+      "created": "2025-05-13T15:10:47.148722Z",
+      "id": "01JV535HBCV2W399HBFR9FZY0M",
+      "primaryFile": {
+        "drawingProcessingStatus": "finished",
+        "featureDetectionStatus": "finished",
+        "filename": "Part with Hole.step",
+        "id": "01JV535HBB8JF4TRGZTVEHPJYW",
+        "originalS3Key": "071e066a-7faa-444c-b6cd-1682fe2075ef.step",
+        "manualDrawingRequestStatus": "not_started",
+        "tesselationGenerationStatus": "finished",
+        "thumbnailS3Key": "7bc91236-a2c0-4c33-ab46-3dbfe8377b04.png",
+        "titleBlock": {
+          "additionalInfo": null,
+          "approvedBy": null,
+          "approvedOn": null,
+          "checkedBy": null,
+          "checkedOn": null,
+          "createdBy": {
+            "email": "ethan.keller@gmail.com",
+            "firstName": "Ethan",
+            "lastName": "Keller"
+          },
+          "companyName": null,
+          "finishes": [
+            "As Machined"
+          ],
+          "manufacturingProcess": "not_sure",
+          "material": "Aluminum 2024",
+          "notes": null,
+          "partNumber": null,
+          "revision": null,
+          "threadInfo": null,
+          "title": "Part with Hole",
+          "tolerance": "standard",
+          "units": "metric",
+          "weight": null,
+          "id": "01JV535HBE7T8FVYG15A0WQGDK",
+          "logoUrl": null,
+          "organizationDescription": "ETHAN DEVELOPMENT"
+        },
+        "viewerS3Key": "764670ba-1ac2-459a-a200-083790f57e0e.cdxweb"
+      }
+    },
+    "criticalFeatureGroups": [
+      {
+        "criticalFeatureType": "datum",
+        "featureGroupId": "01JV535HQBG8G88ZNGD094F5JZ",
+        "id": "01JV536GJP5YFRNSYJ3R7J6WRZ",
+        "datumPriority": "A",
+        "degreesOfFreedomConstrained": 3,
+        "gdtSpec": {
+          "count": 1,
+          "gdtType": "flatness",
+          "gdtToleranceOver": 0.3,
+          "gdtToleranceSplit": false,
+          "gdtToleranceUnder": 0.3,
+          "specificNotes": null
+        },
+        "featureGroup": {
+          "internalId": 7,
+          "featureGroupType": "grouping",
+          "features": [
+            {
+              "attributes": {
+                "longest_edge": 157.079633,
+                "axis": [
+                  0,
+                  0,
+                  1
+                ],
+                "location": [
+                  50,
+                  50,
+                  100
+                ]
+              },
+              "constraints": [],
+              "featureType": "planar_surface",
+              "internalId": 7,
+              "shapeIds": [
+                42
+              ],
+              "id": "01JV535HQ84D05SZ8S9RX4980K"
+            }
+          ],
+          "id": "01JV535HQBG8G88ZNGD094F5JZ",
+          "offsetDistance": null
+        },
+        "drawingViewElement": {
+          "type": "datum_reference",
+          "attributes": {
+            "userSelectedPosition": null,
+            "edge": "TOP",
+            "layerId": 7,
+            "offsetFromEdge": 0,
+            "count": 1,
+            "position": {
+              "x": -49.99999999999997,
+              "y": 49.99999999999997
+            },
+            "vector": {
+              "x": 0,
+              "y": 1
+            },
+            "calloutAttributes": {
+              "alignmentType": "LEFT",
+              "arrowAngle": -1.5707963267948966,
+              "backgroundPosition": {
+                "x": -289.5639914772726,
+                "y": 308.36399147727263
+              },
+              "backgroundSize": {
+                "x": 22.4,
+                "y": 8
+              },
+              "canvasPosition": {
+                "x": -289.5639914772726,
+                "y": 308.36399147727263
+              },
+              "connectingLineStartPosition": {
+                "x": -278.36399147727263,
+                "y": 304.36399147727263
+              },
+              "connectingLineEndPosition": {
+                "x": -278.36399147727263,
+                "y": 280.36399147727263
+              },
+              "draggable": true,
+              "lineEndType": "NONE",
+              "pointAtPosition": {
+                "x": -278.36399147727263,
+                "y": 280.36399147727263
+              },
+              "shoulderJointType": "NONE",
+              "shoulderJointPosition": null,
+              "shoulderStartPosition": {
+                "x": -278.36399147727263,
+                "y": 304.36399147727263
+              },
+              "shoulderEndPosition": {
+                "x": -278.36399147727263,
+                "y": 304.36399147727263
+              },
+              "shoulderType": "FIXED"
+            },
+            "featureControlFrameAttributes": {
+              "baseControlFrameContent": [
+                "{{FLATNESS_SVG}}",
+                "0.3"
+              ],
+              "baseFrameElementPositions": [
+                {
+                  "x": -7.3999999999999995,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": 3.8,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "baseFrameHeight": 8,
+              "baseFrameWidth": 22.4,
+              "bottomControlFrameContent": [],
+              "bottomFrameElementPositions": [],
+              "bottomFrameHeight": 0,
+              "datumPriorityAttributes": {
+                "triangleSize": {
+                  "x": 4,
+                  "y": 4
+                },
+                "trianglePosition": {
+                  "x": 0,
+                  "y": 4
+                },
+                "connectingLineStartPosition": {
+                  "x": 0,
+                  "y": 8
+                },
+                "connectingLineEndPosition": {
+                  "x": 0,
+                  "y": 20
+                },
+                "datumFramePosition": {
+                  "x": 0,
+                  "y": 18
+                },
+                "datumFrameSize": {
+                  "x": 7.6,
+                  "y": 8
+                },
+                "datumPriority": "A",
+                "totalHeight": 24,
+                "placement": "TOP"
+              },
+              "dividerLinePositions": [
+                {
+                  "x": -3.5999999999999996,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "groupCountLabelPosition": null,
+              "groupCountText": null,
+              "groupCountWidth": null,
+              "topControlFrameContent": [],
+              "topFrameElementPositions": [],
+              "topFrameHeight": 24,
+              "totalHeight": 30
+            },
+            "datumPriorityAttributes": null
+          },
+          "id": "01JV5380VWXYSKZ7M95E010FFA",
+          "drawingViewId": "01JV5380VTAR0Z8KCHTFQECHVV",
+          "featureId": null,
+          "criticalFeatureId": "01JV536GJP5YFRNSYJ3R7J6WRZ"
+        }
+      },
+      {
+        "criticalFeatureType": "datum",
+        "featureGroupId": "01JV535HQBJWF9F03HM6FNQSXB",
+        "id": "01JV536PXNY9DA6PHR5E8ZAQH3",
+        "datumPriority": "B",
+        "degreesOfFreedomConstrained": 2,
+        "gdtSpec": {
+          "count": 1,
+          "gdtType": "perpendicularity",
+          "gdtToleranceOver": 0.3,
+          "gdtToleranceSplit": false,
+          "gdtToleranceUnder": 0.3,
+          "specificNotes": null
+        },
+        "featureGroup": {
+          "internalId": 3,
+          "featureGroupType": "grouping",
+          "features": [
+            {
+              "attributes": {
+                "longest_edge": 100,
+                "axis": [
+                  0,
+                  -1,
+                  0
+                ],
+                "location": [
+                  50,
+                  0,
+                  50
+                ]
+              },
+              "constraints": [],
+              "featureType": "planar_surface",
+              "internalId": 3,
+              "shapeIds": [
+                14
+              ],
+              "id": "01JV535HQ7N8AR05SKS9862S44"
+            }
+          ],
+          "id": "01JV535HQBJWF9F03HM6FNQSXB",
+          "offsetDistance": null
+        },
+        "drawingViewElement": {
+          "type": "datum_reference",
+          "attributes": {
+            "userSelectedPosition": null,
+            "edge": "TOP",
+            "layerId": 3,
+            "offsetFromEdge": 0,
+            "count": 1,
+            "position": {
+              "x": 50,
+              "y": -49.99999999999997
+            },
+            "vector": {
+              "x": 1,
+              "y": 0
+            },
+            "calloutAttributes": {
+              "alignmentType": "RIGHT",
+              "arrowAngle": 3.141592653589793,
+              "backgroundPosition": {
+                "x": 319.3639914772728,
+                "y": -274.36399147727263
+              },
+              "backgroundSize": {
+                "x": 30,
+                "y": 8
+              },
+              "canvasPosition": {
+                "x": 319.3639914772728,
+                "y": -274.36399147727263
+              },
+              "connectingLineStartPosition": {
+                "x": 304.3639914772728,
+                "y": -278.36399147727263
+              },
+              "connectingLineEndPosition": {
+                "x": 280.3639914772728,
+                "y": -278.36399147727263
+              },
+              "draggable": true,
+              "lineEndType": "NONE",
+              "pointAtPosition": {
+                "x": 280.3639914772728,
+                "y": -278.36399147727263
+              },
+              "shoulderJointType": "NONE",
+              "shoulderJointPosition": null,
+              "shoulderStartPosition": {
+                "x": 304.3639914772728,
+                "y": -278.36399147727263
+              },
+              "shoulderEndPosition": {
+                "x": 304.3639914772728,
+                "y": -278.36399147727263
+              },
+              "shoulderType": "FIXED"
+            },
+            "featureControlFrameAttributes": {
+              "baseControlFrameContent": [
+                "{{PERPENDICULARITY_SVG}}",
+                "0.3",
+                "A"
+              ],
+              "baseFrameElementPositions": [
+                {
+                  "x": -11.2,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": -8.881784197001252e-16,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": 11.2,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "baseFrameHeight": 8,
+              "baseFrameWidth": 30,
+              "bottomControlFrameContent": [],
+              "bottomFrameElementPositions": [],
+              "bottomFrameHeight": 0,
+              "datumPriorityAttributes": {
+                "triangleSize": {
+                  "x": 4,
+                  "y": 4
+                },
+                "trianglePosition": {
+                  "x": 0,
+                  "y": 4
+                },
+                "connectingLineStartPosition": {
+                  "x": 0,
+                  "y": 8
+                },
+                "connectingLineEndPosition": {
+                  "x": 0,
+                  "y": 20
+                },
+                "datumFramePosition": {
+                  "x": 0,
+                  "y": 18
+                },
+                "datumFrameSize": {
+                  "x": 7.6,
+                  "y": 8
+                },
+                "datumPriority": "B",
+                "totalHeight": 24,
+                "placement": "TOP"
+              },
+              "dividerLinePositions": [
+                {
+                  "x": -7.4,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": 7.399999999999999,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "groupCountLabelPosition": null,
+              "groupCountText": null,
+              "groupCountWidth": null,
+              "topControlFrameContent": [],
+              "topFrameElementPositions": [],
+              "topFrameHeight": 24,
+              "totalHeight": 30
+            },
+            "datumPriorityAttributes": null
+          },
+          "id": "01JV5380VWPR2PTPPR3HTQPE28",
+          "drawingViewId": "01JV5380VT6EM79ZB6XMN3W2GK",
+          "featureId": null,
+          "criticalFeatureId": "01JV536PXNY9DA6PHR5E8ZAQH3"
+        }
+      },
+      {
+        "criticalFeatureType": "critical_feature",
+        "featureGroupId": "01JV535HQBCEZFBSG4TQ3AM28Q",
+        "id": "01JV5373DB461ZNTTSJTYWS9RR",
+        "datumPriority": null,
+        "degreesOfFreedomConstrained": null,
+        "gdtSpec": {
+          "count": 1,
+          "gdtType": "position",
+          "gdtToleranceOver": 0.15,
+          "gdtToleranceSplit": false,
+          "gdtToleranceUnder": 0.15,
+          "specificNotes": null,
+          "depth": 100,
+          "depthToleranceOver": 0.25,
+          "depthToleranceSplit": false,
+          "depthToleranceUnder": 0.25,
+          "diameter": 50,
+          "diameterToleranceOver": 0.15,
+          "diameterToleranceSplit": false,
+          "diameterToleranceUnder": 0.15,
+          "fastener": null,
+          "fastenerExists": false,
+          "fastenerFit": "basic",
+          "fastenerFitBasic": null,
+          "fastenerFitClose": null,
+          "holeFunction": "clearance",
+          "isThru": true,
+          "pinDiameter": 50,
+          "pinDiameterToleranceOver": null,
+          "pinDiameterToleranceSplit": true,
+          "pinDiameterToleranceUnder": null,
+          "pinFit": "H",
+          "pinStandard": "iso",
+          "pinTolerance": null,
+          "spotfaceExists": false,
+          "spotfaceDepth": null,
+          "spotfaceDiameter": null,
+          "threadDepth": 100
+        },
+        "featureGroup": {
+          "internalId": 1,
+          "featureGroupType": "grouping",
+          "features": [
+            {
+              "attributes": {
+                "depth": 100,
+                "diameter": 50,
+                "axis": [
+                  0,
+                  0,
+                  -1
+                ],
+                "location": [
+                  50,
+                  50,
+                  50
+                ]
+              },
+              "constraints": [],
+              "featureType": "simple_thru_hole",
+              "internalId": 1,
+              "shapeIds": [
+                32
+              ],
+              "id": "01JV535HQ7E3036ZFBZWBV5A6P"
+            }
+          ],
+          "id": "01JV535HQBCEZFBSG4TQ3AM28Q",
+          "offsetDistance": null
+        },
+        "drawingViewElement": {
+          "type": "critical_feature_callout",
+          "attributes": {
+            "userSelectedPosition": null,
+            "edge": "TOP",
+            "layerId": 1,
+            "offsetFromEdge": 0,
+            "count": 1,
+            "position": {
+              "x": 98.4155891867899,
+              "y": 98.41558918678973
+            },
+            "calloutAttributes": {
+              "alignmentType": "RIGHT",
+              "arrowAngle": -1.7463703587698676,
+              "backgroundPosition": {
+                "x": 0,
+                "y": 313.36399147727263
+              },
+              "backgroundSize": {
+                "x": 44.800000000000004,
+                "y": 8
+              },
+              "canvasPosition": {
+                "x": 0,
+                "y": 313.36399147727263
+              },
+              "connectingLineStartPosition": {
+                "x": 30.900000000000002,
+                "y": 313.36399147727263
+              },
+              "connectingLineEndPosition": {
+                "x": 8.795234393364363e-14,
+                "y": 139.18199573863632
+              },
+              "draggable": true,
+              "lineEndType": "ARROW",
+              "pointAtPosition": {
+                "x": 8.795234393364363e-14,
+                "y": 139.18199573863632
+              },
+              "shoulderJointType": "NONE",
+              "shoulderJointPosition": null,
+              "shoulderStartPosition": {
+                "x": 22.900000000000002,
+                "y": 313.36399147727263
+              },
+              "shoulderEndPosition": {
+                "x": 30.900000000000002,
+                "y": 313.36399147727263
+              },
+              "shoulderType": "DEFAULT"
+            },
+            "featureControlFrameAttributes": {
+              "baseControlFrameContent": [
+                "{{POSITION_SVG}}",
+                "{{DIAMETER_SVG}}0.15",
+                "A",
+                "B"
+              ],
+              "baseFrameElementPositions": [
+                {
+                  "x": -18.6,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": -11.000000000000004,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": -2.0000000000000053,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": 10.999999999999993,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": 18.599999999999994,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "baseFrameHeight": 8,
+              "baseFrameWidth": 44.800000000000004,
+              "bottomControlFrameContent": [],
+              "bottomFrameElementPositions": [],
+              "bottomFrameHeight": 0,
+              "datumPriorityAttributes": null,
+              "dividerLinePositions": [
+                {
+                  "x": -14.800000000000002,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": 7.1999999999999975,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": 14.799999999999997,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "groupCountLabelPosition": null,
+              "groupCountText": null,
+              "groupCountWidth": null,
+              "topControlFrameContent": [
+                "{{DIAMETER_SVG}}50 {{PLUS_OR_MINUS_SVG}}0.15 THRU"
+              ],
+              "topFrameElementPositions": [
+                {
+                  "x": -28.199999999999996,
+                  "y": 10.5,
+                  "z": 0
+                },
+                {
+                  "x": -22.8,
+                  "y": 10.5,
+                  "z": 0
+                },
+                {
+                  "x": -13.8,
+                  "y": 10.5,
+                  "z": 0
+                },
+                {
+                  "x": 4.199999999999999,
+                  "y": 10.5,
+                  "z": 0
+                }
+              ],
+              "topFrameHeight": 6,
+              "totalHeight": 12
+            }
+          },
+          "id": "01JV5380VWTNHXTCTGSP65RTAA",
+          "drawingViewId": "01JV5380VT6EM79ZB6XMN3W2GK",
+          "featureId": null,
+          "criticalFeatureId": "01JV5373DB461ZNTTSJTYWS9RR"
+        }
+      },
+      {
+        "criticalFeatureType": "critical_feature",
+        "featureGroupId": "01JV537HZ5KJ042K1323XAP742",
+        "id": "01JV537HZ6YFKJYS32493KAV5Z",
+        "datumPriority": null,
+        "degreesOfFreedomConstrained": null,
+        "gdtSpec": {
+          "count": 1,
+          "gdtType": "position",
+          "gdtToleranceOver": 0.25,
+          "gdtToleranceSplit": false,
+          "gdtToleranceUnder": 0.25,
+          "specificNotes": null,
+          "width": 100,
+          "widthToleranceOver": 0.3,
+          "widthToleranceSplit": false,
+          "widthToleranceUnder": 0.3
+        },
+        "featureGroup": {
+          "internalId": null,
+          "featureGroupType": "offset_coplanar_surfaces",
+          "features": [
+            {
+              "attributes": {
+                "longest_edge": 100,
+                "axis": [
+                  -1,
+                  0,
+                  0
+                ],
+                "location": [
+                  0,
+                  50,
+                  50
+                ]
+              },
+              "constraints": [],
+              "featureType": "planar_surface",
+              "internalId": 2,
+              "shapeIds": [
+                4
+              ],
+              "id": "01JV535HQ7EKWCCR3BQ8409BBM"
+            },
+            {
+              "attributes": {
+                "longest_edge": 100,
+                "axis": [
+                  1,
+                  0,
+                  0
+                ],
+                "location": [
+                  100,
+                  50,
+                  50
+                ]
+              },
+              "constraints": [],
+              "featureType": "planar_surface",
+              "internalId": 4,
+              "shapeIds": [
+                21
+              ],
+              "id": "01JV535HQ8ZHDK7ZJH9FH50GN2"
+            }
+          ],
+          "id": "01JV537HZ5KJ042K1323XAP742",
+          "offsetDistance": 100
+        },
+        "drawingViewElement": {
+          "type": "external_width_measurement",
+          "attributes": {
+            "userSelectedPosition": null,
+            "edge": "TOP",
+            "layerId": -1,
+            "offsetFromEdge": 0,
+            "count": 1,
+            "endPosition": {
+              "x": 50,
+              "y": -49.99999999999997
+            },
+            "startPosition": {
+              "x": -49.99999999999994,
+              "y": -49.99999999999997
+            },
+            "value": 0,
+            "valueType": "DEFAULT",
+            "vector": {
+              "x": 0,
+              "y": -1
+            },
+            "backgroundSize": null,
+            "connectingLineStartPosition": null,
+            "connectingLineEndPosition": null,
+            "dragDirection": "VERTICAL",
+            "elementSize": {
+              "x": 35,
+              "y": 15
+            },
+            "endArrowAngle": 0,
+            "endArrowPosition": {
+              "x": 278.3639914772728,
+              "y": -295.86399147727263,
+              "z": -7
+            },
+            "endPerpendicularEndPosition": {
+              "x": 278.3639914772728,
+              "y": -295.86399147727263,
+              "z": -8
+            },
+            "endPerpendicularStartPosition": {
+              "x": 278.3639914772728,
+              "y": -280.36399147727263,
+              "z": -8
+            },
+            "formattedValue": null,
+            "labelPosition": {
+              "x": 1.1368683772161603e-13,
+              "y": -295.86399147727263,
+              "z": 0
+            },
+            "parallelLineEndPosition": {
+              "x": 278.3639914772728,
+              "y": -295.86399147727263,
+              "z": -8
+            },
+            "parallelLineStartPosition": {
+              "x": -278.3639914772725,
+              "y": -295.86399147727263,
+              "z": -8
+            },
+            "startArrowAngle": 3.141592653589793,
+            "startArrowPosition": {
+              "x": -278.3639914772725,
+              "y": -295.86399147727263,
+              "z": -7
+            },
+            "startPerpendicularEndPosition": {
+              "x": -278.3639914772725,
+              "y": -295.86399147727263,
+              "z": -8
+            },
+            "startPerpendicularStartPosition": {
+              "x": -278.3639914772725,
+              "y": -280.36399147727263,
+              "z": -8
+            },
+            "alignmentType": "LEFT",
+            "backgroundOffset": {
+              "x": 16,
+              "y": 0
+            },
+            "backgroundPosition": {
+              "x": 1.1368683772161603e-13,
+              "y": -295.86399147727263,
+              "z": 0
+            },
+            "calloutAttributes": null,
+            "featureControlFrameAttributes": {
+              "baseControlFrameContent": [
+                "{{POSITION_SVG}}",
+                "0.25",
+                "A",
+                "B"
+              ],
+              "baseFrameElementPositions": [
+                {
+                  "x": -16.8,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": -3.8000000000000025,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": 9.199999999999996,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": 16.799999999999997,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "baseFrameHeight": 8,
+              "baseFrameWidth": 41.2,
+              "bottomControlFrameContent": [],
+              "bottomFrameElementPositions": [],
+              "bottomFrameHeight": 0,
+              "datumPriorityAttributes": null,
+              "dividerLinePositions": [
+                {
+                  "x": -13.000000000000002,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": 5.399999999999997,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": 12.999999999999996,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "groupCountLabelPosition": null,
+              "groupCountText": null,
+              "groupCountWidth": null,
+              "topControlFrameContent": [
+                "100{{PLUS_OR_MINUS_SVG}}0.3"
+              ],
+              "topFrameElementPositions": [
+                {
+                  "x": -13.200000000000003,
+                  "y": 10.5,
+                  "z": 0
+                },
+                {
+                  "x": -6.000000000000003,
+                  "y": 10.5,
+                  "z": 0
+                },
+                {
+                  "x": 1.1999999999999966,
+                  "y": 10.5,
+                  "z": 0
+                }
+              ],
+              "topFrameHeight": 6,
+              "totalHeight": 12
+            }
+          },
+          "id": "01JV5380VWXRKNDV28H4AP76JG",
+          "drawingViewId": "01JV5380VT6EM79ZB6XMN3W2GK",
+          "featureId": null,
+          "criticalFeatureId": "01JV537HZ6YFKJYS32493KAV5Z"
+        }
+      }
+    ],
+    "criticalSurfaces": [
+      {
+        "criticalFeatureType": "critical_feature",
+        "featureGroupId": "01JV535HQBEHGWCQD80J87FAGZ",
+        "id": "01JV53792J17DEKH4R7VQ738H7",
+        "datumPriority": null,
+        "degreesOfFreedomConstrained": null,
+        "gdtSpec": {
+          "count": 1,
+          "gdtType": "profile_surface",
+          "gdtToleranceOver": 0.3,
+          "gdtToleranceSplit": false,
+          "gdtToleranceUnder": 0.3,
+          "specificNotes": null
+        },
+        "featureGroup": {
+          "internalId": 4,
+          "featureGroupType": "grouping",
+          "features": [
+            {
+              "attributes": {
+                "longest_edge": 100,
+                "axis": [
+                  1,
+                  0,
+                  0
+                ],
+                "location": [
+                  100,
+                  50,
+                  50
+                ]
+              },
+              "constraints": [],
+              "featureType": "planar_surface",
+              "internalId": 4,
+              "shapeIds": [
+                21
+              ],
+              "id": "01JV535HQ8ZHDK7ZJH9FH50GN2"
+            }
+          ],
+          "id": "01JV535HQBEHGWCQD80J87FAGZ",
+          "offsetDistance": null
+        },
+        "drawingViewElement": {
+          "type": "critical_feature_callout",
+          "attributes": {
+            "userSelectedPosition": null,
+            "edge": "TOP",
+            "layerId": 4,
+            "offsetFromEdge": 0,
+            "count": 1,
+            "position": {
+              "x": 278.3639914772728,
+              "y": 0
+            },
+            "calloutAttributes": {
+              "alignmentType": "LEFT",
+              "arrowAngle": 3.141592653589793,
+              "backgroundPosition": {
+                "x": 371.3639914772728,
+                "y": 0
+              },
+              "backgroundSize": {
+                "x": 37.6,
+                "y": 8
+              },
+              "canvasPosition": {
+                "x": 371.3639914772728,
+                "y": 0
+              },
+              "connectingLineStartPosition": {
+                "x": 344.0639914772728,
+                "y": 0
+              },
+              "connectingLineEndPosition": {
+                "x": 278.3639914772728,
+                "y": 0
+              },
+              "draggable": true,
+              "lineEndType": "ARROW",
+              "pointAtPosition": {
+                "x": 278.3639914772728,
+                "y": 0
+              },
+              "shoulderJointType": "NONE",
+              "shoulderJointPosition": null,
+              "shoulderStartPosition": {
+                "x": 352.0639914772728,
+                "y": 0
+              },
+              "shoulderEndPosition": {
+                "x": 344.0639914772728,
+                "y": 0
+              },
+              "shoulderType": "DEFAULT"
+            },
+            "featureControlFrameAttributes": {
+              "baseControlFrameContent": [
+                "{{PROFILE_SURFACE_SVG}}",
+                "0.3",
+                "A",
+                "B"
+              ],
+              "baseFrameElementPositions": [
+                {
+                  "x": -15,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": -3.8000000000000016,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": 7.399999999999998,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": 14.999999999999996,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "baseFrameHeight": 8,
+              "baseFrameWidth": 37.6,
+              "bottomControlFrameContent": [],
+              "bottomFrameElementPositions": [],
+              "bottomFrameHeight": 0,
+              "datumPriorityAttributes": null,
+              "dividerLinePositions": [
+                {
+                  "x": -11.200000000000001,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": 3.599999999999998,
+                  "y": 0,
+                  "z": 0
+                },
+                {
+                  "x": 11.199999999999998,
+                  "y": 0,
+                  "z": 0
+                }
+              ],
+              "groupCountLabelPosition": null,
+              "groupCountText": null,
+              "groupCountWidth": null,
+              "topControlFrameContent": [],
+              "topFrameElementPositions": [],
+              "topFrameHeight": 0,
+              "totalHeight": 6
+            }
+          },
+          "id": "01JV5380VW1FXH7N292Q3BXWVR",
+          "drawingViewId": "01JV5380VT6EM79ZB6XMN3W2GK",
+          "featureId": null,
+          "criticalFeatureId": "01JV53792J17DEKH4R7VQ738H7"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "content": "FEATURES THAT ARE NOT TOLERANCES IN THE DRAWING VIEWS SHALL REFERENCE THE CAD MODEL TO ESTABLISH BASIC GEOMETRY. FEATURES HAVE A PROFILE TOLERANCE OF 0.5",
+        "id": "01JV537ZXKS811A23V6QV8APAW"
+      },
+      {
+        "content": "BREAK ALL EDGES",
+        "id": "01JV537ZXKSDWSZB12A7ZTVGGB"
+      }
+    ]
+  }
