@@ -23,7 +23,7 @@ if (validArgs) {
     LOG.info(`documentId=${drawingScriptArgs.documentId}, workspaceId=${drawingScriptArgs.workspaceId}, elementId=${drawingScriptArgs.elementId}`);
   
     const randomLocation: number[] = getRandomLocation([1.0, 1.0], [8.0, 8.0]);
-    const geometricToleranceFrame1 = '{\\fDrawing Symbols Sans;◎}%%v{\\fDrawing Symbols Sans;∅}tol1{\\fDrawing Symbols Sans;Ⓜ}%%v%%v%%v%%v%%v\n';
+    const geometricToleranceFrame1 = '{\\fDrawing Symbols Sans;◎}%%v{\\fDrawing Symbols Sans;∅}tol1{\\fDrawing Symbols Sans;😀}%%v%%v%%v%%v%%v\n';
     const geometricToleranceFrame2 = '{\\fDrawing Symbols Sans;⌖}%%vto2{\\fDrawing Symbols Sans;Ⓛ}%%v%%v%%v%%v%%v\n';
     const textHeight = 0.12;
 

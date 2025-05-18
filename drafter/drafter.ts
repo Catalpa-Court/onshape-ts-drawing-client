@@ -1,7 +1,7 @@
-import { mainLog } from './utils/logger.js';
-import { ApiClient } from './utils/apiclient.js';
-import { BasicNode, DrawingObjectType, ModifyStatusResponseOutput, SingleRequestResultStatus, GetDrawingJsonExportResponse, GetViewJsonGeometryResponse, SnapPointType, View2 } from './utils/onshapetypes.js';
-import { usage, waitForModifyToFinish, DrawingScriptArgs, parseDrawingScriptArgs, validateBaseURLs, getRandomViewOnActiveSheetFromExportData, getDrawingJsonExport, convertPointViewToPaper, pointOnCircle, getAllViewsOnActiveSheetFromExportData } from './utils/drawingutils.js';
+import { mainLog } from '../utils/logger.js';
+import { ApiClient } from '../utils/apiclient.js';
+import { BasicNode, DrawingObjectType, ModifyStatusResponseOutput, SingleRequestResultStatus, GetDrawingJsonExportResponse, GetViewJsonGeometryResponse, SnapPointType, View2 } from '../utils/onshapetypes.js';
+import { usage, waitForModifyToFinish, DrawingScriptArgs, parseDrawingScriptArgs, validateBaseURLs, getRandomViewOnActiveSheetFromExportData, getDrawingJsonExport, convertPointViewToPaper, pointOnCircle, getAllViewsOnActiveSheetFromExportData } from '../utils/drawingutils.js';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -12,12 +12,12 @@ export class DrafterElementType {
 }
 
 // Type for the entire drafter data structure
-interface DrafterData {
+export interface DrafterData {
   elements: DrafterElement[];
 }
 
 // Base interface for all drafter elements
-interface DrafterElement {
+export interface DrafterElement {
   type: string;  // Using string since we're using static class properties
 }
 
@@ -28,7 +28,7 @@ interface Position {
 }
 
 // Note element implementation
-interface DrafterNote extends DrafterElement {
+export interface DrafterNote extends DrafterElement {
   type: typeof DrafterElementType.NOTE;  // This will be 'note'
   position: Position;
   contents: string;
@@ -43,7 +43,7 @@ interface ProcessedDiameterDimension {
   textLocation: number[];
 }
 
-interface DrafterDiameterDimension extends DrafterElement {
+export interface DrafterDiameterDimension extends DrafterElement {
   type: typeof DrafterElementType.DIMENSION_DIAMETER;
   deterministicId: string;
 }
@@ -172,10 +172,15 @@ function processDrafterDimensionDiameter(
   if (!edge || edge.type !== 'circle') {
     throw new Error(`No valid circle edge found for deterministicId: ${dimension.deterministicId}`);
   }
-
+  if (!edge.data.center) {
+    throw new Error('Center point is undefined');
+  }
+  if (!edge.data.radius) {
+    throw new Error('Radius is undefined');
+  }
   const centerPoint = edge.data.center;
-  const chordPoint = pointOnCircle(edge.data.center, edge.data.radius, 45.0);
-  const farChordPoint = pointOnCircle(edge.data.center, edge.data.radius, 225.0);
+  const chordPoint = pointOnCircle(centerPoint, edge.data.radius, 45.0);
+  const farChordPoint = pointOnCircle(centerPoint, edge.data.radius, 225.0);
 
   // Locate text out from chord point by a bit
   const textLocation = [
@@ -194,27 +199,12 @@ function processDrafterDimensionDiameter(
   };
 }
 
-const LOG = mainLog();
-
-let drawingScriptArgs: DrawingScriptArgs = null;
-let validArgs: boolean = true;
-let apiClient: ApiClient = null;
-
-try {
-  drawingScriptArgs = parseDrawingScriptArgs();
-  apiClient = await ApiClient.createApiClient(drawingScriptArgs.stackToUse);
-  validateBaseURLs(apiClient.getBaseURL(), drawingScriptArgs.baseURL);
-} catch (error) {
-  validArgs = false;
-  usage('drafter');
-}
-
-if (validArgs) {
+async function applyAnnotations(apiClient: ApiClient, drawingScriptArgs: DrawingScriptArgs) {
   try {
     LOG.info(`documentId=${drawingScriptArgs.documentId}, workspaceId=${drawingScriptArgs.workspaceId}, elementId=${drawingScriptArgs.elementId}`);
   
     // Read the drafterData.json file
-    const dataPath = path.join(process.cwd(), 'drafterData.json');
+    const dataPath = path.join(process.cwd(), 'drafter/drafterData.json');
     const data: DrafterData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 
     let drawingJsonExport: GetDrawingJsonExportResponse = await getDrawingJsonExport(apiClient, drawingScriptArgs.documentId, 'w', drawingScriptArgs.workspaceId, drawingScriptArgs.elementId) as GetDrawingJsonExportResponse;
@@ -227,7 +217,6 @@ if (validArgs) {
         return [convertDrafterNoteToOnshape(element, textHeight)];
       }
       if (isDrafterDiameterDimension(element)) {
-        return [];
         // Find all matching edges across all views
         const processedDimensions: ProcessedDiameterDimension[] = [];
         
@@ -253,7 +242,7 @@ if (validArgs) {
     const flattenedAnnotations = annotations.flat();
 
     const requestBody = {
-      description: 'Add annotations from drafterData.json',
+      description: 'Drafter annotations',
       jsonRequests: [
         {
           messageName: 'onshapeCreateAnnotations',
@@ -288,4 +277,20 @@ if (validArgs) {
     console.error(error);
     LOG.error('Create notes failed', error);
   }
+}
+
+const LOG = mainLog();
+
+let drawingScriptArgs: DrawingScriptArgs;
+let validArgs: boolean = true;
+let apiClient: ApiClient;
+
+try {
+  drawingScriptArgs = parseDrawingScriptArgs();
+  apiClient = await ApiClient.createApiClient(drawingScriptArgs.stackToUse);
+  validateBaseURLs(apiClient.getBaseURL(), drawingScriptArgs.baseURL);
+  applyAnnotations(apiClient, drawingScriptArgs);
+} catch (error) {
+  validArgs = false;
+  usage('drafter');
 }

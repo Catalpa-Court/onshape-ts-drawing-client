@@ -1,4 +1,9 @@
 {
+    "drawingTarget": {
+        "documentId": "1234567890",
+        "workspaceId": "1234567890",
+        "elementId": "1234567890"
+    },
     "elements": [
         {
             "type": "note",
@@ -42,7 +47,11 @@
         },
         {
             "type": "dimension-diameter",
-            "deterministicId": "JI1"
+            "deterministicId": "JI1",
+            "position": {
+                "x" : 4,
+                "y" : 1
+            }
         }
     ]
 }

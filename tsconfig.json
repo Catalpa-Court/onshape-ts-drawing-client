@@ -9,10 +9,11 @@
     "moduleResolution": "node16",
     "allowSyntheticDefaultImports": true,
     "strict": true,
-    "watch": true
+    "lib": ["es2022", "dom"]
   },
   "include": [
     "*.ts",
+    "drafter/*.ts",
     "./utils/*.ts",
     "./decl/*.d.ts"
   ],

@@ -24,11 +24,14 @@
     "create-three-point-angular-dimension": "node .compiledjs/create-three-point-angular-dimension.js",
     "detect-if-single-drawing-needs-update": "node .compiledjs/detect-if-single-drawing-needs-update.js",
     "detect-if-workspace-contains-drawings-needing-update": "node .compiledjs/detect-if-workspace-contains-drawings-needing-update.js",
-    "drafter": "node .compiledjs/drafter.js",
+    "drafter": "node .compiledjs/drafter/drafter.js",
     "edit-notes": "node .compiledjs/edit-notes.js",
     "edit-dimension-attachments": "node .compiledjs/edit-dimension-attachments.js",
     "edit-dimension-text-positions": "node .compiledjs/edit-dimension-text-positions.js",
-    "find-errors-in-drawing": "node .compiledjs/find-errors-in-drawing.js"
+    "find-errors-in-drawing": "node .compiledjs/find-errors-in-drawing.js",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage"
   },
   "repository": {
     "type": "git",
@@ -52,10 +55,11 @@
     "rimraf": "^5.0.5",
     "sanitize-filename": "^1.6.3",
     "time-span": "^5.1.0",
-    "typescript": "^4.9.5 ",
     "unirest": "^0.6.0"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-typescript": "^7.27.1",
     "@types/body-parser": "^1.19.2",
     "@types/death": "^1.1.2",
     "@types/debug": "^4.1.7",
@@ -67,7 +71,9 @@
     "@typescript-eslint/eslint-plugin": "^7.6.0",
     "@typescript-eslint/parser": "^7.6.0",
     "eslint": "^8.57.0",
-    "eslint-config-google": "^0.14.0"
+    "eslint-config-google": "^0.14.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.3"
   },
   "main": ".compiledjs/index.js",
   "types": ".compiledjs/index.d.ts"
